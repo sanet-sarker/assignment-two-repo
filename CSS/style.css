@@ -1,0 +1,110 @@
+/* ==========
+font import
+=========== */
+
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Oswald&family=Poppins:wght@500&display=swap');
+
+/* *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} */
+
+body{
+    padding: 20px;
+}
+/*===========
+     NavBar 
+ ============*/
+li, a{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    margin-top: 30px;
+}
+.nav-link{
+    list-style: none;
+}
+.nav-link li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+#icon-search{
+    font-size: 20px;
+    margin-right: 20px;
+}
+#icon-shopping{
+    font-size: 20px;
+}
+
+
+/*============
+ first section
+ =========== */
+
+ .first-section{
+     display: flex;
+ }
+ .start-div{
+     width: 50%;
+     align-items: center;
+     margin-left: 150px;
+ }
+ .start-img{
+     width: 50%;
+     align-items: center;
+     margin-left: 70px;
+     margin-bottom: 50px;
+ }
+ .first-titel{
+     font-size: 50px;
+ }
+ .first-pera{
+     font-family: bold;
+     font-weight: 300;
+     font-size: 19px;
+ }
+
+
+ /* Img background */
+ .first-img{
+     background-image: url(/images/Circle\ design.svg);
+ }
+
+
+ /* button section */
+ .preebook-button{
+     height: 50px;
+     width: 180px;
+     background-color: rgb(226, 14, 120);
+     text-align: center;
+     border-radius: 20px;
+     font-size: 20px;
+     font-family: Arial, Helvetica, sans-serif;
+     
+ }
+
+
+ /* section two */
+ .img-ecom1{
+    margin-left: 240px;
+    align-items: center;
+}
+
+ .img-ecom{
+     margin-left: 58px;
+     align-items: center;
+ }
+ hr{
+     margin-right: 100px;
+     margin-left: 150px;
+ }
