@@ -431,12 +431,6 @@ footer p{
         margin: 0%;
         padding: 0%;
     }
-
-    /* .first-img{
-        width: 100%;
-        grid-template-columns: 1fr;
-
-    } */
     .start-img{
         width: 100%;
         grid-template-columns: 1fr;
