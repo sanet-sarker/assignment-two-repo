@@ -261,6 +261,11 @@ header{
         width: 100%;
         opacity: 0.9;
       }
+
+      #button-sinup{
+          font-size: 20px;
+          font-weight: bold;
+      }
       
       button:hover {
         opacity:1;
@@ -272,6 +277,7 @@ header{
       .cancelbtn {
         padding: 14px 20px;
         background-color: #f44336;
+
       }
       
       /*-----------------------------------------------------
@@ -376,8 +382,11 @@ footer p{
 }
 
 #icon{
+    color: rgb(179, 165, 169);
     margin: 0 10px;
     margin-bottom: 30px;
+    font-size: 40px;
+    border-radius: 10%;
 }
 
 
