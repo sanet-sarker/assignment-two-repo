@@ -1,21 +1,15 @@
-/* ==========
-font import
-=========== */
+/* =================
+    font import
+=================== */
 
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Oswald&family=Poppins:wght@500&display=swap');
-
-/* *{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-} */
 
 body{
     padding: 20px;
 }
-/*===========
+/*================
      NavBar 
- ============*/
+ =================*/
 li, a{
     font-family: 'Be Vietnam Pro', sans-serif;
     font-weight: 900;
@@ -51,9 +45,9 @@ header{
 }
 
 
-/*============
- first section
- =========== */
+/*=====================
+      first section
+ ===================== */
 
  .first-section{
      display: flex;
@@ -82,19 +76,23 @@ header{
  }
 
 
- /* Img background */
+ /* =======================
+       Img background 
+ ========================*/
  .first-img{
      background-image: url(/images/Circle\ design.svg);
  }
 
  .first-img:hover {
-    -ms-transform: scale(1.5); /* IE 9 */
-    -webkit-transform: scale(1.0); /* Safari 3-8 */
+    -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.0); 
     transform: scale(1.2); 
   }
 
 
- /* button section */
+ /*=====================
+      button section
+   ===================== */
  .preebook-button{
      height: 50px;
      width: 250px;
@@ -109,7 +107,9 @@ header{
  }
 
 
- /* section two */
+ /* =============
+    section two 
+    ==============*/
  .img-ecom1{
     margin-left: 240px;
     align-items: center;
@@ -126,7 +126,9 @@ header{
 
 
 
- /* product section */
+ /* ==================
+      product section 
+    ===================*/
 
  .populer-collection{
      font-size: 50px;
@@ -143,8 +145,7 @@ header{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column: 24px;
-    /* align-items: center; */
-    /* background-color: brown; */
+   
     margin: 10px 150px;
 }
 
@@ -153,14 +154,10 @@ header{
     background-color: rgba(255, 255, 255, 0.685);
     border: 2px solid rgba(49, 30, 30, 0.171);
     border-radius: 5px;
-    /* box-shadow: 5px 0px 2px 5px rgb(238, 236, 236); */
+    
 }
-/* .product{
-    width: 350px;
-} */
+
 .product-banner img{
-    /* width: 300px;
-    height: 300px; */
      align-items: center;
 }
 .product-img{
@@ -184,7 +181,6 @@ header{
     padding:0px 0px 0px 30px;
     margin: 0;
     margin-top: 0%;
-    /* justify-content: space-between; */
 }
 
 .product-detail{
@@ -229,7 +225,131 @@ header{
 
 
 
-/* footer section */
+/* ------------Extra----------------- */
+/* ===================================
+    Full-width input fields 
+    ==================================*/
+    input[type=text], input[type=password] {
+        width: 100%;
+        padding: 15px;
+        margin: 5px 0 22px 0;
+        display: inline-block;
+        border: none;
+        background: #f1f1f1;
+      }
+      
+      input[type=text]:focus, input[type=password]:focus {
+        background-color: #ddd;
+        outline: none;
+      }
+      
+      hr {
+        border: 1px solid #f1f1f1;
+        margin-bottom: 25px;
+      }
+      
+      /* ==============================
+         Set a style for all buttons 
+       =================================*/
+      button {
+        background-color: #04AA6D;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        opacity: 0.9;
+      }
+      
+      button:hover {
+        opacity:1;
+      }
+      
+      /* ---------------------------------
+      Extra styles for the cancel button 
+      ------------------------------------*/
+      .cancelbtn {
+        padding: 14px 20px;
+        background-color: #f44336;
+      }
+      
+      /*-----------------------------------------------------
+      Float cancel and signup buttons and add an equal width
+      ------------------------------------------------------- */
+      .cancelbtn, .signupbtn {
+        float: left;
+        width: 50%;
+      }
+      
+      /* ----------------------------------------
+             Add padding to container elements 
+      --------------------------------------------*/
+      .container {
+        padding: 80px;
+      }
+      
+      /*==================================
+                Clear floats
+        ===================================*/
+      .button-last::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      .button-last{
+          font-size: 40px;
+          margin-bottom: 10px;
+           
+      }
+      .required{
+          color: red;
+          font-weight: 20px;
+          font-size: 25px;
+      }
+      .sign-up{
+          padding: 0px 137px 20px 180px;
+          background-color: rgb(254, 255, 252);
+          font-family: Arial, Helvetica, sans-serif;
+          color: rgb(29, 27, 27);
+      }
+    .signup-head{
+        text-align: center;
+          font-size: 40px;
+          margin: 0%;
+          padding: 0%;
+    }
+      .signup{
+          text-align: center;
+          font-size: 30px;
+          font-family: 'Be Vietnam Pro', sans-serif;
+          margin-bottom: 2px;
+      }
+      .drow-hr{
+          color: rgba(61, 94, 61, 0.61);
+          background-color: rgb(48, 93, 129);
+          margin-left: 90px;
+          margin-top: 0%;
+      }
+      .agrement{
+          font-size: 20px;
+          font-weight: bold;
+      }
+      
+      /* Change styles for cancel button and signup */
+      @media screen and (min-width: 688px) {
+        .cancelbtn, .signupbtn {
+           width: 100%;
+        }
+        
+    
+    }
+
+
+
+/* =======================
+      footer section 
+   =======================*/
 footer {
    
     justify-content: center;
@@ -261,10 +381,12 @@ footer p{
 }
 
 
-/* -------==================
+/* =======================
     Media Queries Mobile
-======================------*/
-/* Mobile Device */
+   =======================*/
+/*=========================
+      Mobile Device 
+ ==========================*/
 @media only screen and (max-width:688px) {
     .nav-link{
         display: none;
@@ -299,7 +421,6 @@ footer p{
     }
 
     .products{
-        /* background-color: #FFC014; */
         grid-template-columns: 1fr;
         margin: 0%;
         padding: 0%;
@@ -318,7 +439,9 @@ footer p{
         display: none;
     }
 }
-/* Tablet Device */
+/*=====================
+     Tablet Device
+ =======================*/
 
 @media only screen and (min-width:688px) and (max-width:992px) {
     .nav-link{
@@ -338,122 +461,3 @@ footer p{
 }
 
 
-/* ------------Extra----------------- */
-/* ===================================
-    Full-width input fields 
-    ==================================*/
-input[type=text], input[type=password] {
-    width: 100%;
-    padding: 15px;
-    margin: 5px 0 22px 0;
-    display: inline-block;
-    border: none;
-    background: #f1f1f1;
-  }
-  
-  input[type=text]:focus, input[type=password]:focus {
-    background-color: #ddd;
-    outline: none;
-  }
-  
-  hr {
-    border: 1px solid #f1f1f1;
-    margin-bottom: 25px;
-  }
-  
-  /* ==============================
-     Set a style for all buttons 
-   =================================*/
-  button {
-    background-color: #04AA6D;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    opacity: 0.9;
-  }
-  
-  button:hover {
-    opacity:1;
-  }
-  
-  /* ---------------------------------
-  Extra styles for the cancel button 
-  ------------------------------------*/
-  .cancelbtn {
-    padding: 14px 20px;
-    background-color: #f44336;
-  }
-  
-  /*-----------------------------------------------------
-  Float cancel and signup buttons and add an equal width
-  ------------------------------------------------------- */
-  .cancelbtn, .signupbtn {
-    float: left;
-    width: 50%;
-  }
-  
-  /* ----------------------------------------
-         Add padding to container elements 
-  --------------------------------------------*/
-  .container {
-    padding: 80px;
-  }
-  
-  /*==================================
-            Clear floats
-    ===================================*/
-  .button-last::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  .button-last{
-      font-size: 40px;
-      margin-bottom: 10px;
-       
-  }
-  .required{
-      color: red;
-      font-weight: 20px;
-      font-size: 25px;
-  }
-  .sign-up{
-      padding: 0px 137px 20px 180px;
-      background-color: rgb(254, 255, 252);
-      font-family: Arial, Helvetica, sans-serif;
-      color: rgb(29, 27, 27);
-  }
-.signup-head{
-    text-align: center;
-      font-size: 40px;
-      margin: 0%;
-      padding: 0%;
-}
-  .signup{
-      text-align: center;
-      font-size: 30px;
-      font-family: 'Be Vietnam Pro', sans-serif;
-      margin-bottom: 2px;
-  }
-  .drow-hr{
-      color: rgba(61, 94, 61, 0.61);
-      background-color: rgb(48, 93, 129);
-      margin-left: 90px;
-      margin-top: 0%;
-  }
-  .agrement{
-      font-size: 20px;
-      font-weight: bold;
-  }
-  
-  /* Change styles for cancel button and signup */
-  @media screen and (min-width: 688px) {
-    .cancelbtn, .signupbtn {
-       width: 100%;
-    }
-    
-
-}
