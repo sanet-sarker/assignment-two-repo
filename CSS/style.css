@@ -32,7 +32,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
-    margin-top: 30px;
+    margin-top: 5px;
 }
 .nav-link{
     list-style: none;
@@ -72,10 +72,11 @@ header{
      font-size: 50px;
  }
  .first-pera{
-     font-family: bold;
-     font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+     font-weight: bold;
      font-size: 19px;
      margin-bottom: 40px;
+     color: rgb(71, 63, 63);
  }
 
 
@@ -100,7 +101,7 @@ header{
      text-align: center;
      border-radius: 20px;
      font-size: 20px;
-     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-family: Arial, Helvetica, sans-serif;
      margin-bottom: 50px;
      
  }
@@ -147,7 +148,7 @@ header{
 
 .product{
     margin: 30px;
-    background-color: rgba(238, 241, 245, 0.685);
+    background-color: rgba(255, 255, 255, 0.685);
     border: 2px solid rgba(49, 30, 30, 0.171);
     border-radius: 5px;
     /* box-shadow: 5px 0px 2px 5px rgb(238, 236, 236); */
@@ -166,17 +167,21 @@ header{
 }
 
 .dolor{
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    padding: 0%;
 }
 .product-title{
     font-size: 35px;
+    margin: 0%;
+    padding: 0%;
+    margin-bottom: 8px;
 }
 .product-info{
     display: flex;
     align-items: center;
-    padding:0 30px;
+    padding:0px 0px 0px 30px;
     margin: 0;
+    margin-top: 0%;
     /* justify-content: space-between; */
 }
 .product-detail{
@@ -184,12 +189,16 @@ header{
 }
 
 #product-fature{
-    margin-left: 30px;
-    padding-right: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 30px 0px 30px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(73, 65, 65);
 }
 
 .fa-star{
-    font-size: 12px;
+    font-size: 14px;
     padding: 0;
     margin: 0;
 }
@@ -231,7 +240,6 @@ footer {
     color: red;
 }
 
-
 .social-icon{
     display: grid;
     justify-content: center;
@@ -242,4 +250,56 @@ footer {
 #icon{
     margin: 0 10px;
     margin-bottom: 30px;
+}
+
+
+
+/* ==================
+      Media Queries 
+======================*/
+/* Mobile Device */
+@media only screen and (max-width:688px) {
+    .nav-link{
+        display: none;
+    }
+    .header-name{
+        width: 100%;
+    }
+    .first-img{
+        grid-template-columns: 1fr;
+
+    }
+    .products{
+        /* background-color: #FFC014; */
+        grid-template-columns: 1fr;
+        margin: 0%;
+        padding: 0%;
+    }
+    .prodact{
+        flex-direction: column;
+    }
+    .first-section{
+        margin: 0%;
+        padding: 0%;
+    }
+}
+
+/* Tablet Device */
+
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .nav-link{
+        display: inline-block;
+    }
+    .first-img{
+        height: 300px;
+        width: 300px;
+    }
+    .products{
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0%;
+        padding: 0%;
+    }
+    /* .blogs{
+        grid-template-columns: repeat(1, 1fr);
+    } */
 }
