@@ -7,10 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment Two</title>
     <script src="https://kit.fontawesome.com/3228257fa2.js" crossorigin="anonymous"></script>
+
+    <!-- CSS link  -->
     <link rel="stylesheet" href="./CSS/style.css">
 </head>
 
 <body>
+
+
+    <!-- ======================
+         Header Section start 
+    =========================-->
     <header>
         <h2 class="header-name">Influencer products</h2>
         <nav>
@@ -24,7 +31,13 @@
             </ul>
         </nav>
     </header>
+    <!-- ======================
+        Header Section END 
+    ==========================-->
 
+    <!-- ======================
+         First Section start 
+    ===========================-->
     <section class="first-section">
         <div class="start-div">
             <h1 class="first-titel">Start your Journey a <br> Influencer</h1>
@@ -43,6 +56,15 @@
         </div>
     </section>
 
+    <!-- ===================
+        First Section END 
+    =======================-->
+
+
+    <!-- ======================
+      Site Logo Section start 
+    ===========================-->
+
     <section class="section-two">
         <hr>
         <img class="img-ecom1" src="./logos/Alibaba.svg" alt="Logo Image">
@@ -54,7 +76,17 @@
         <img class="img-ecom" src="./logos/Walmart.svg" alt="Logo Image">
         <hr>
     </section>
+    <!-- ======================
+       Site Logo Section End 
+    ===========================-->
+
+
+
     <main>
+
+        <!--===========================
+          Product details Section start 
+        ===============================-->
         <section class="section-three">
             <h1 class="populer-collection">Popular Collection</h1>
             <div class="products">
@@ -255,7 +287,54 @@
             </div>
             <h1 class="see-more">See More &nbsp; <i class="fas fa-arrow-right"></i></h1>
         </section>
+        <!--=========================
+          Product details Section End 
+        ============================-->
+
+
+        <!--=====================
+          Sign-Up Section start 
+        ========================-->
+
+        <section class="sign-up">
+            <form style="border:1px solid #ccc">
+                <div class="container">
+                    <h1 class="signup-head">Sign Up</h1>
+                    <p class="signup">Please fill in this form to create an account.</p>
+                    <hr class="drow-hr">
+                    <label for="email"><b>Email<span class="required">*</span></b></label>
+                    <input type="text" placeholder="Enter Email" name="email" required>
+
+                    <label for="psw"><b>Password<span class="required">*</span></b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+
+                    <label for="psw-repeat"><b>Repeat Password<span class="required">*</span></b></label>
+                    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+
+                    <label class="remembr">
+                        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+                    </label>
+                    <p class="agrement">By creating an account you agree to our <a href="#"
+                            style="color:rgb(31, 12, 136)">Terms &
+                            Privacy</a>.
+                    </p>
+                    <div class="button-last">
+                        <button type="button" class="cancelbtn">Cancel</button>
+                        <button type="submit" class="signupbtn">Sign Up</button>
+                    </div>
+                </div>
+            </form>
+        </section>
+        <!--====================
+           Sign-Up Section End
+        ======================-->
+
     </main>
+
+    <!-- ======================
+        footer Section start 
+    =========================-->
+
     <footer>
         <h1>Influencer products</span></h1>
         <p>Cpyright © 2020 influencer products</p>
@@ -266,8 +345,11 @@
             <i id="icon" class="fab fa-linkedin-in"></i>
             <i id="icon" class="fab fa-twitter-square"></i>
         </div>
-
     </footer>
+
+    <!-- ====================
+        footer Section End 
+    =======================-->
 </body>
 
 </html>

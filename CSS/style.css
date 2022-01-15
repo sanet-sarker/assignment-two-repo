@@ -25,6 +25,7 @@ li, a{
 }
 .header-name{
     font-size: 35px;
+    font-weight: bold;
 }
 
 header{
@@ -70,6 +71,7 @@ header{
  }
  .first-titel{
      font-size: 50px;
+     font-weight: bolder;
  }
  .first-pera{
     font-family: Arial, Helvetica, sans-serif;
@@ -219,9 +221,9 @@ header{
 
 .see-more{
     text-align: right;
-    margin-right: 100px;
+    margin-right: 137px;
     color: rgb(236, 56, 167);
-    font-size: 30px;
+    font-size: 25px;
 }
 
 
@@ -235,6 +237,7 @@ footer {
     background-color: hsl(245, 64%, 8%);
     color: #fff;
     text-align: center;
+    margin-top: 20px;
 }
 #footyeryear{
     color: red;
@@ -251,7 +254,6 @@ footer {
     margin: 0 10px;
     margin-bottom: 30px;
 }
-
 
 
 /* ==================
@@ -278,6 +280,7 @@ footer {
     .prodact{
         flex-direction: column;
     }
+
     .first-section{
         margin: 0%;
         padding: 0%;
@@ -290,6 +293,7 @@ footer {
     .nav-link{
         display: inline-block;
     }
+
     .first-img{
         height: 300px;
         width: 300px;
@@ -302,4 +306,117 @@ footer {
     /* .blogs{
         grid-template-columns: repeat(1, 1fr);
     } */
+}
+
+
+/* Extra */
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  button:hover {
+    opacity:1;
+  }
+  
+  /* Extra styles for the cancel button */
+  .cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+  }
+  
+  /* Float cancel and signup buttons and add an equal width */
+  .cancelbtn, .signupbtn {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Add padding to container elements */
+  .container {
+    padding: 80px;
+  }
+  
+  /* Clear floats */
+  .button-last::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .button-last{
+      font-size: 40px;
+      margin-bottom: 10px;
+       
+  }
+  .required{
+      color: red;
+      font-weight: 20px;
+      font-size: 25px;
+  }
+  .sign-up{
+      padding: 0px 140px 20px 183px;
+      background-color: rgb(254, 255, 252);
+      font-family: Arial, Helvetica, sans-serif;
+      color: rgb(29, 27, 27);
+  }
+.signup-head{
+    text-align: center;
+      font-size: 40px;
+      margin: 0%;
+      padding: 0%;
+}
+  .signup{
+      text-align: center;
+      font-size: 30px;
+      /* font-family: Arial, Helvetica, sans-serif; */
+      font-family: 'Be Vietnam Pro', sans-serif;
+      margin-bottom: 2px;
+  }
+  .drow-hr{
+      color: rgba(61, 94, 61, 0.61);
+      background-color: rgb(48, 93, 129);
+      margin-left: 90px;
+      margin-top: 0%;
+  }
+  .agrement{
+      font-size: 20px;
+      font-weight: bold;
+  }
+  
+  /* Change styles for cancel button and signup button on extra small screens */
+  @media screen and (min-width: 688px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+    /* .sign-up{
+        margin: 0%;
+        padding: 0%;
+    } */
+
 }
